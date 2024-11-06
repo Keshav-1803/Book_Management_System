@@ -35,6 +35,7 @@ const bookSchema = new mongoose.Schema({
   },
   deletedAt: {
     type: Date,
+    match: /^\d{4}-\d{2}-\d{2}$/,
   },
   isDeleted: {
     type: Boolean,
@@ -42,6 +43,7 @@ const bookSchema = new mongoose.Schema({
   },
   releasedAt: {
     type: Date,
+    match: /^\d{4}-\d{2}-\d{2}$/,
     required: true,
   },
   createdAt: {

@@ -14,6 +14,7 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
     unique: true,
+    match: /^\+91\d{10}$/,
   },
   email: {
     type: String,
