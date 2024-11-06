@@ -1,5 +1,3 @@
----
-
 # Books Management System
 
 A RESTful API project that manages users, books, and book reviews in a MongoDB database, allowing for user registration, login, book management, and review functionality.
