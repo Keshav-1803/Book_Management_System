@@ -1,0 +1,22 @@
+{
+  "name": "book_management_system",
+  "version": "1.0.0",
+  "description": "A system designed to manage Books",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon src/index.js"
+  },
+  "keywords": [
+    "Stystem",
+    "Book",
+    "Management"
+  ],
+  "author": "Keshav Agarwal",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.0"
+  }
+}
